@@ -1,19 +1,19 @@
-# 🎬 VidRAG — Video Understanding with Retrieval-Augmented Generation
+# 🎬 VidRAG - Video Understanding with Retrieval-Augmented Generation
 
 **VidRAG** is an intelligent pipeline that lets you **ask questions about YouTube videos** using **Retrieval-Augmented Generation (RAG)** powered by **Google Gemini**.  
-It automatically extracts audio, transcribes speech, creates semantic chunks, embeds them into a vector database, and generates **context-grounded answers** — complete with evaluation metrics for trustworthiness and relevance.
+It automatically extracts audio, transcribes speech, creates semantic chunks, embeds them into a vector database, and generates **context-grounded answers** - complete with evaluation metrics for trustworthiness and relevance.
 
 ---
 
 ## Key Features
 
-- **Audio Extraction** — Download and convert YouTube audio automatically  
-- **Speech-to-Text** — Transcribe videos with `faster-whisper`  
-- **Chunking & Preprocessing** — Split transcripts into semantically meaningful pieces  
-- **RAG Pipeline** — Retrieve relevant chunks and generate answers using Gemini  
-- **Evaluation Metrics** — Assess answer *faithfulness*, *relevance*, and *semantic coherence*  
-- **Streamlit Dashboard** — Intuitive UI for exploring and querying video content  
-- **CLI Automation** — Run the full pipeline from your terminal
+- **Audio Extraction** - Download and convert YouTube audio automatically  
+- **Speech-to-Text** - Transcribe videos with `faster-whisper`  
+- **Chunking & Preprocessing** - Split transcripts into semantically meaningful pieces  
+- **RAG Pipeline** - Retrieve relevant chunks and generate answers using Gemini  
+- **Evaluation Metrics** - Assess answer *faithfulness*, *relevance*, and *semantic coherence*  
+- **Streamlit Dashboard** - Intuitive UI for exploring and querying video content  
+- **CLI Automation** - Run the full pipeline from your terminal
 
 ---
 
@@ -21,7 +21,7 @@ It automatically extracts audio, transcribes speech, creates semantic chunks, em
 
 | Component | Tool / Library |
 |------------|----------------|
-| **LLM** | Google Gemini 1.5 Flash |
+| **LLM** | Google Gemini 2.5 Flash |
 | **Speech Recognition** | faster-whisper |
 | **Vector Database** | ChromaDB |
 | **Embeddings** | Gemini or SentenceTransformers |
