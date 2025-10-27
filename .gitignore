@@ -1,0 +1,15 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Data
+data/audio/
+data/chroma/
+data/transcripts/
+data/evaluations/
+
+# Logs and temp
+*.log
+*.tmp
